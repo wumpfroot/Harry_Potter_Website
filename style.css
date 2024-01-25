@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
+
+/* CSS reset */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	min-height: 100vh;
+	background-color: black;
+	color: white;
+	font-family: "Oswald", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* CSS */
+/* Hero section */
+.hero {
+	background: url("./images/banner.jpeg") no-repeat center;
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.hero-text {
+	font-size: 8rem;
+	text-align: center;
+}
+
+/* Navigation */
+.navigation ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+.navigation li {
+	font-size: 1.5rem;
+	font-weight: 300;
+	padding: 0.19rem;
+}
+
+/* Info content */
+main {
+	margin: 5rem 3rem;
+}
+
+.study-heading {
+	font-size: 2.2rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info-container {
+	display: flex;
+	gap: 10vw;
+	margin-bottom: 3rem;
+}
+
+.img-container img {
+	max-width: 55rem;
+	height: auto;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.info-text {
+	max-width: 55rem;
+}
+
+.info-heading {
+	font-size: 2rem;
+}
+
+.info-paragraph {
+	font-size: 1.7rem;
+}
+
+/* Footer content */
+footer {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.testimonials-heading {
+	font-size: 3rem;
+	font-weight: 300;
+	margin-bottom: 5rem;
+}
+
+footer p {
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+	font-style: italic;
+}
